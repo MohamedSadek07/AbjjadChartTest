@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3CC82DB028B65B22008F4413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC82DAF28B65B22008F4413 /* AppDelegate.swift */; };
 		3CC82DB228B65B22008F4413 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC82DB128B65B22008F4413 /* SceneDelegate.swift */; };
-		3CC82DB428B65B22008F4413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC82DB328B65B22008F4413 /* ViewController.swift */; };
+		3CC82DB428B65B22008F4413 /* CurrencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC82DB328B65B22008F4413 /* CurrencyVC.swift */; };
 		3CC82DB728B65B22008F4413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC82DB528B65B22008F4413 /* Main.storyboard */; };
 		3CC82DB928B65B26008F4413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC82DB828B65B26008F4413 /* Assets.xcassets */; };
 		3CC82DBC28B65B26008F4413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC82DBA28B65B26008F4413 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		3CC82DAC28B65B22008F4413 /* AbjjadChartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbjjadChartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC82DAF28B65B22008F4413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CC82DB128B65B22008F4413 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CC82DB328B65B22008F4413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CC82DB328B65B22008F4413 /* CurrencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyVC.swift; sourceTree = "<group>"; };
 		3CC82DB628B65B22008F4413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CC82DB828B65B26008F4413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CC82DBB28B65B26008F4413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,39 @@
 		3CC82DAE28B65B22008F4413 /* AbjjadChartTest */ = {
 			isa = PBXGroup;
 			children = (
+				3CC82DC328B65B39008F4413 /* Model */,
+				3CC82DC428B65B47008F4413 /* View */,
+				3CC82DC528B65B55008F4413 /* ViewModel */,
 				3CC82DAF28B65B22008F4413 /* AppDelegate.swift */,
 				3CC82DB128B65B22008F4413 /* SceneDelegate.swift */,
-				3CC82DB328B65B22008F4413 /* ViewController.swift */,
 				3CC82DB528B65B22008F4413 /* Main.storyboard */,
 				3CC82DB828B65B26008F4413 /* Assets.xcassets */,
 				3CC82DBA28B65B26008F4413 /* LaunchScreen.storyboard */,
 				3CC82DBD28B65B26008F4413 /* Info.plist */,
 			);
 			path = AbjjadChartTest;
+			sourceTree = "<group>";
+		};
+		3CC82DC328B65B39008F4413 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CC82DC428B65B47008F4413 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CC82DB328B65B22008F4413 /* CurrencyVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CC82DC528B65B55008F4413 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CC82DB428B65B22008F4413 /* ViewController.swift in Sources */,
+				3CC82DB428B65B22008F4413 /* CurrencyVC.swift in Sources */,
 				3CC82DB028B65B22008F4413 /* AppDelegate.swift in Sources */,
 				3CC82DB228B65B22008F4413 /* SceneDelegate.swift in Sources */,
 			);
